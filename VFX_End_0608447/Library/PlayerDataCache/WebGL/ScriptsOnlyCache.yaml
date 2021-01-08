@@ -1,7 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-Editor.dll:
+    - ReadmeEditor
     Assembly-CSharp.dll:
-    - UnityTemplateProjects.SimpleCameraController
+    - Readme
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -34,27 +36,11 @@ ScriptsOnlyBuild:
     - UnityEditor.Rendering.Universal.UniversalProjectSettings
     Unity.RenderPipelines.Universal.Runtime.dll:
     - UnityEngine.Rendering.Universal.Bloom
-    - UnityEngine.Rendering.Universal.ChannelMixer
-    - UnityEngine.Rendering.Universal.ChromaticAberration
-    - UnityEngine.Rendering.Universal.ColorAdjustments
-    - UnityEngine.Rendering.Universal.ColorCurves
-    - UnityEngine.Rendering.Universal.ColorLookup
-    - UnityEngine.Rendering.Universal.DepthOfField
-    - UnityEngine.Rendering.Universal.FilmGrain
     - UnityEngine.Rendering.Universal.ForwardRendererData
-    - UnityEngine.Rendering.Universal.LensDistortion
-    - UnityEngine.Rendering.Universal.LiftGammaGain
-    - UnityEngine.Rendering.Universal.MotionBlur
-    - UnityEngine.Rendering.Universal.PaniniProjection
     - UnityEngine.Rendering.Universal.PostProcessData
-    - UnityEngine.Rendering.Universal.ShadowsMidtonesHighlights
-    - UnityEngine.Rendering.Universal.SplitToning
-    - UnityEngine.Rendering.Universal.Tonemapping
     - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorResources
-    - UnityEngine.Rendering.Universal.Vignette
-    - UnityEngine.Rendering.Universal.WhiteBalance
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.VisualEffectGraph.Editor.dll:
@@ -105,7 +91,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    "Assets/\u5834\u666F/0608447.unity":
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -114,21 +100,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
     - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 65
+    - Class: 72
       Script: {instanceID: 0}
     - Class: 81
-      Script: {instanceID: 0}
-    - Class: 89
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -160,8 +138,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11768}
     - Class: 114
       Script: {instanceID: 11934}
-    - Class: 114
-      Script: {instanceID: 11958}
     - Class: 114
       Script: {instanceID: 11986}
     - Class: 114
@@ -201,8 +177,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14420}
     - Class: 114
-      Script: {instanceID: 14476}
-    - Class: 114
       Script: {instanceID: 14778}
     - Class: 114
       Script: {instanceID: 14856}
@@ -219,8 +193,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 15750}
     - Class: 114
-      Script: {instanceID: 15874}
-    - Class: 114
       Script: {instanceID: 15896}
     - Class: 114
       Script: {instanceID: 15902}
@@ -232,13 +204,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
-    - Class: 205
-      Script: {instanceID: 0}
     - Class: 213
-      Script: {instanceID: 0}
-    - Class: 215
-      Script: {instanceID: 0}
-    - Class: 220
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -246,7 +212,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    - Class: 258
+    - Class: 73398921
+      Script: {instanceID: 0}
+    - Class: 2058629509
+      Script: {instanceID: 0}
+    - Class: 2083052967
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -1253,5 +1223,5 @@ ScriptsOnlyBuild:
     className: VFXUISliderBinder
   platform: 20
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
+  - "Assets/\u5834\u666F/0608447.unity"
   playerPath: C:/Users/User/Documents/GitHub/HWH_VFX_End_0608447/Web
